@@ -52,7 +52,7 @@
 #endif // _QX_SUPPORT_BOOST_SERIALIZE_SHARED_PTR_132
 
 #include <boost/serialization/shared_ptr.hpp>
-#include <boost/serialization/weak_ptr.hpp>
+#include <boost/weak_ptr.hpp>
 
 #ifdef _MSC_VER
 #pragma warning(pop)

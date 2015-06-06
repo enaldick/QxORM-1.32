@@ -90,7 +90,8 @@ clean.depends += pkgconfig_clean
 distclean.depends += pkgconfig_distclean
 QMAKE_EXTRA_TARGETS += clean distclean pkgconfig_clean pkgconfig_distclean
 } # contains(DEFINES, _QX_CREATE_PKG_CONFIG)
-
+INCLUDEPATH+=$$PWD/include/Boost/src
+#LIBS+=-L$$PWD/include/Boost/src
 #################
 # Headers Files #
 #################
